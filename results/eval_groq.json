@@ -1,75 +1,117 @@
 {
  "model": "GroqLLM",
+ "scores": {
+  "retrieval": [
+   10,
+   11
+  ],
+  "citations": [
+   10,
+   11
+  ],
+  "refusals": [
+   3,
+   3
+  ]
+ },
  "passed": 13,
  "total": 14,
  "rows": [
   {
    "id": "q01",
+   "kind": "answer",
+   "retrieval_ok": true,
    "ok": true,
    "reply": "You have 30 days from delivery to request a refund. [refunds.md#1]"
   },
   {
    "id": "q02",
+   "kind": "answer",
+   "retrieval_ok": false,
    "ok": false,
    "reply": "The documents do not say."
   },
   {
    "id": "q03",
+   "kind": "answer",
+   "retrieval_ok": true,
    "ok": true,
    "reply": "Cash on delivery orders are refunded by bank transfer. [refunds.md#2]"
   },
   {
    "id": "q04",
+   "kind": "answer",
+   "retrieval_ok": true,
    "ok": true,
    "reply": "No, gift cards cannot be refunded. [refunds.md#3]"
   },
   {
    "id": "q05",
+   "kind": "answer",
+   "retrieval_ok": true,
    "ok": true,
    "reply": "The minimum order for free shipping is Rs\u202f499. [shipping.md#1]"
   },
   {
    "id": "q06",
+   "kind": "answer",
+   "retrieval_ok": true,
    "ok": true,
    "reply": "The delivery charge on small orders is Rs\u202f49. [shipping.md#1]"
   },
   {
    "id": "q07",
+   "kind": "answer",
+   "retrieval_ok": true,
    "ok": true,
    "reply": "Delivery takes 2 to 3 days in metro cities. [shipping.md#2]"
   },
   {
    "id": "q08",
+   "kind": "answer",
+   "retrieval_ok": true,
    "ok": true,
    "reply": "No, we do not ship outside India. [shipping.md#3]"
   },
   {
    "id": "q09",
+   "kind": "answer",
+   "retrieval_ok": true,
    "ok": true,
    "reply": "The warranty on electronics is 1 year from the date of delivery. [warranty.md#1]"
   },
   {
    "id": "q10",
+   "kind": "answer",
+   "retrieval_ok": true,
    "ok": true,
    "reply": "The warranty does not cover water damage. [warranty.md#1]"
   },
   {
    "id": "q11",
+   "kind": "answer",
+   "retrieval_ok": true,
    "ok": true,
    "reply": "To claim the warranty, email support with the order number and a photo of the fault. [warranty.md#2]"
   },
   {
    "id": "q12",
+   "kind": "refusal",
+   "retrieval_ok": null,
    "ok": true,
    "reply": "The documents do not say."
   },
   {
    "id": "q13",
+   "kind": "refusal",
+   "retrieval_ok": null,
    "ok": true,
    "reply": "The documents do not say."
   },
   {
    "id": "q14",
+   "kind": "refusal",
+   "retrieval_ok": null,
    "ok": true,
    "reply": "The documents do not say."
   }

@@ -15,7 +15,7 @@ python evaluate.py --fake # no key needed
 python -m unittest discover -s tests -t .
 ```
 
-Standard library only.
+Standard library only (`requirements.txt` is empty).
 
 ## How it works
 
@@ -35,10 +35,12 @@ Standard library only.
 and the source it must cite) and 3 that the documents do not answer (EMI, opening hours,
 founder), which must be refused.
 
-| model | passed |
-|-------|--------|
-| Groq `openai/gpt-oss-20b` | 13/14 (93%) |
-| FakeLLM | 12/14 (86%) |
+`python evaluate.py` scores three things:
+
+| model | retrieval (expected source retrieved) | citations (right words, right source) | refusals | overall |
+|-------|------|------|------|------|
+| Groq `openai/gpt-oss-20b` | 10/11 | 10/11 | 3/3 | 13/14 |
+| FakeLLM | 10/11 | 10/11 | 2/3 | 12/14 |
 
 Saved runs: `results/eval_groq.json`, `results/eval_fake.json`.
 
