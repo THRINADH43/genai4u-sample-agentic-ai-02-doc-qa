@@ -1,0 +1,86 @@
+[
+ {
+  "id": "q01",
+  "question": "How many days do I have to ask for a refund?",
+  "answer_contains": "30 days",
+  "source": "refunds.md#1"
+ },
+ {
+  "id": "q02",
+  "question": "How long does a refund take to reach me?",
+  "answer_contains": "7 working days",
+  "source": "refunds.md#2"
+ },
+ {
+  "id": "q03",
+  "question": "How is a cash on delivery order refunded?",
+  "answer_contains": "bank transfer",
+  "source": "refunds.md#2"
+ },
+ {
+  "id": "q04",
+  "question": "Can I get a refund on a gift card?",
+  "answer_contains": "cannot",
+  "source": "refunds.md#3"
+ },
+ {
+  "id": "q05",
+  "question": "What is the minimum order for free shipping?",
+  "answer_contains": "499",
+  "source": "shipping.md#1"
+ },
+ {
+  "id": "q06",
+  "question": "How much is the delivery charge on small orders?",
+  "answer_contains": "49",
+  "source": "shipping.md#1"
+ },
+ {
+  "id": "q07",
+  "question": "How long does delivery take in metro cities?",
+  "answer_contains": "2 to 3 days",
+  "source": "shipping.md#2"
+ },
+ {
+  "id": "q08",
+  "question": "Do you ship to Dubai or outside India?",
+  "answer_contains": "not ship",
+  "source": "shipping.md#3"
+ },
+ {
+  "id": "q09",
+  "question": "How long is the warranty on electronics?",
+  "answer_contains": "1 year",
+  "source": "warranty.md#1"
+ },
+ {
+  "id": "q10",
+  "question": "Does the warranty cover water damage?",
+  "answer_contains": "not",
+  "source": "warranty.md#1"
+ },
+ {
+  "id": "q11",
+  "question": "How do I claim the warranty?",
+  "answer_contains": "photo",
+  "source": "warranty.md#2"
+ },
+ {
+  "id": "q12",
+  "question": "Do you offer EMI on credit cards?",
+  "answer_contains": null,
+  "source": null
+ },
+ {
+  "id": "q13",
+  "question": "What are your store opening hours?",
+  "answer_contains": null,
+  "source": null
+ },
+ {
+  "id": "q14",
+  "question": "Who is the founder of the company?",
+  "answer_contains": null,
+  "source": null
+ }
+]

@@ -1,0 +1,77 @@
+{
+ "model": "FakeLLM",
+ "passed": 12,
+ "total": 14,
+ "rows": [
+  {
+   "id": "q01",
+   "ok": true,
+   "reply": "Refund policy: Customers can ask for a refund within 30 days of delivery. [refunds.md#1]"
+  },
+  {
+   "id": "q02",
+   "ok": false,
+   "reply": "Other places take 4 to 7 days. [shipping.md#2]"
+  },
+  {
+   "id": "q03",
+   "ok": true,
+   "reply": "Cash on delivery orders are refunded by bank transfer. [refunds.md#2]"
+  },
+  {
+   "id": "q04",
+   "ok": true,
+   "reply": "Refund policy: Gift cards and opened software cannot be refunded. [refunds.md#3]"
+  },
+  {
+   "id": "q05",
+   "ok": true,
+   "reply": "Shipping: Orders above Rs 499 ship free. [shipping.md#1]"
+  },
+  {
+   "id": "q06",
+   "ok": true,
+   "reply": "Smaller orders pay a Rs 49 delivery charge. [shipping.md#1]"
+  },
+  {
+   "id": "q07",
+   "ok": true,
+   "reply": "Shipping: Metro cities get delivery in 2 to 3 days. [shipping.md#2]"
+  },
+  {
+   "id": "q08",
+   "ok": true,
+   "reply": "Shipping: We do not ship outside India. [shipping.md#3]"
+  },
+  {
+   "id": "q09",
+   "ok": true,
+   "reply": "Warranty: Electronics have a 1 year warranty from the date of delivery. [warranty.md#1]"
+  },
+  {
+   "id": "q10",
+   "ok": true,
+   "reply": "The warranty covers manufacturing faults, not physical damage or water damage. [warranty.md#1]"
+  },
+  {
+   "id": "q11",
+   "ok": true,
+   "reply": "Warranty: To claim, email support with the order number and a photo of the fault. [warranty.md#2]"
+  },
+  {
+   "id": "q12",
+   "ok": false,
+   "reply": "Refund policy: Gift cards and opened software cannot be refunded. [refunds.md#3]"
+  },
+  {
+   "id": "q13",
+   "ok": true,
+   "reply": "The documents do not say."
+  },
+  {
+   "id": "q14",
+   "ok": true,
+   "reply": "The documents do not say."
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "model": "GroqLLM",
+ "passed": 13,
+ "total": 14,
+ "rows": [
+  {
+   "id": "q01",
+   "ok": true,
+   "reply": "You have 30 days from delivery to request a refund. [refunds.md#1]"
+  },
+  {
+   "id": "q02",
+   "ok": false,
+   "reply": "The documents do not say."
+  },
+  {
+   "id": "q03",
+   "ok": true,
+   "reply": "Cash on delivery orders are refunded by bank transfer. [refunds.md#2]"
+  },
+  {
+   "id": "q04",
+   "ok": true,
+   "reply": "No, gift cards cannot be refunded. [refunds.md#3]"
+  },
+  {
+   "id": "q05",
+   "ok": true,
+   "reply": "The minimum order for free shipping is Rs\u202f499. [shipping.md#1]"
+  },
+  {
+   "id": "q06",
+   "ok": true,
+   "reply": "The delivery charge on small orders is Rs\u202f49. [shipping.md#1]"
+  },
+  {
+   "id": "q07",
+   "ok": true,
+   "reply": "Delivery takes 2 to 3 days in metro cities. [shipping.md#2]"
+  },
+  {
+   "id": "q08",
+   "ok": true,
+   "reply": "No, we do not ship outside India. [shipping.md#3]"
+  },
+  {
+   "id": "q09",
+   "ok": true,
+   "reply": "The warranty on electronics is 1 year from the date of delivery. [warranty.md#1]"
+  },
+  {
+   "id": "q10",
+   "ok": true,
+   "reply": "The warranty does not cover water damage. [warranty.md#1]"
+  },
+  {
+   "id": "q11",
+   "ok": true,
+   "reply": "To claim the warranty, email support with the order number and a photo of the fault. [warranty.md#2]"
+  },
+  {
+   "id": "q12",
+   "ok": true,
+   "reply": "The documents do not say."
+  },
+  {
+   "id": "q13",
+   "ok": true,
+   "reply": "The documents do not say."
+  },
+  {
+   "id": "q14",
+   "ok": true,
+   "reply": "The documents do not say."
+  }
+ ]
+}
